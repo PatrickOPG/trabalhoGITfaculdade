@@ -1,4 +1,8 @@
 package com.unasp.trabalhoGITfaculdade.dtos;
 
-public class AlunoRequestDTO {
+public record AlunoRequestDTO(
+        String nome,
+        String email,
+        Integer idCurso
+) {
 }
